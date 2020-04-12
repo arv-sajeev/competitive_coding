@@ -1,3 +1,5 @@
-# Heres my go at those cliche interview questions 
+# Competitive coding
+I've always wodered in college why people spent so much time on hackerrank solving seemingly useless problems when they with their could be tackling real world problems, well I take that back. Competitive coding is a good way to learn ot code in the first place and also completely changes the way you think. As a young kid I was always sort of into solving puzzles, small quizes, number games and the jumbled words in newspapers how I loved to do those. But this I never gave it a go, and I almost never had the answers, whenever friends discuss it I just try to squirm out of the conversation hoping they never ask me to contribute to their conversation because I had no idea how to approach them. I tried a little at first but consecutive failures and much well prepared just left this as sort of an insecurity for me. So during the lockdown of 2020 I finally decided I'm gonna try have a go at this. I'm using a book that chandran reccomended by a finnish dude called Anti Laakonsen so now that I've finished ranting let's get to business. The aim is 5 questions per day
 
-## Thanks Katta bhujji Nirmal and iChandran for the inspiration.
+
+ * *Thanks Katta bhujji Nirmal and iChandran for the inspiration*
