@@ -27,7 +27,7 @@ It is a simple identifier that will be replace by a code fragment by the preproc
 ## 3. Variadic macros  
 
 * you can declare macros to accepts variable number of arguments
-* use the `#define <MACRO_NAME>(...) <MACRO_EXPANSION> (<named_args>,__VA_ARGS)__)
+* use the `#define <MACRO_NAME>(...) <MACRO_EXPANSION> (<named_args>,__VA_ARGS)__)`
 ## 4. Standard predefined macros 
 * `__FILE__` expands to the name of the current input file 
 * `__LINE__` expands to current input line number 
