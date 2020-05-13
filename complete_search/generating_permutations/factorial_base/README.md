@@ -15,3 +15,5 @@
 * so for each index find the element in the provided set at the d'th index of the original set and remove it form the set 
 * the positions of the other elements should be changed to accommodate the change that happened in the previous step 
 * the last d will always be 0 since there will only be one element left
+* this this way of labelling permutation such that they can be constructed as well is called lehmar codes 
+* I find that many people have put their thoughts together about this in a more neater and structured manner that even I find reading their explanations more useful to me more than my own here is one of the best explanations that i have come across for this factoradic phenomenon by an senior lecturer from Stanford [factoradic](https://www.keithschwarz.com/interesting/code/?dir=factoradic-permutation) 
