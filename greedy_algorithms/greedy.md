@@ -1,4 +1,4 @@
-#Greedy algorithms
+# Greedy algorithms
 
 A greedy algorithm constructs a solution to the problem by always making a choice 
 that looks the best at the moment. 
