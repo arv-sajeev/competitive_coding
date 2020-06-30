@@ -41,12 +41,10 @@ bool is_attack(vector <int> &v,int n,int d)
 void
 n_queens(vector <int> &board,int d)	
 {
-	cout << "In n_queens :: " << d;
 	if (d == board.size())
 	{	
 		print_vector(board,"Here's a solution");
 	}
-	
 	for (int i = 0;i < board.size();i++)
 	{
 		//Check columns
@@ -54,6 +52,7 @@ n_queens(vector <int> &board,int d)
 			continue;
 		board[d] = i;
 		n_queens(board,d+1);
+		
 	}
 }
 
