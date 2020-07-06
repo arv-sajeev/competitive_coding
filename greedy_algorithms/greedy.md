@@ -36,4 +36,7 @@ discusses its counterexamples, and find finally that the following strategy alwa
 optimal solution.
 
 * select the next possible event that ends as early as possible
-* assume we choose an event that ends later then the number of event we can choose will be <= events we could have chosen with out strategy 
+* assume we choose an event that ends later then the number of event we can choose will be <= events we could have chosen with our strategy
+
+
+
