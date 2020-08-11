@@ -2,6 +2,7 @@
 #include <vector>
 #include <unordered_map>
 #include <utility>
+#include <algorithm>
 
 using namespace std;
 
@@ -9,8 +10,6 @@ int solve(int x,vector <int>&coins,unordered_map <int,int> &memo)
 {
 	int ret;
 	cout << "In solve for :: " << x << endl;
-	if (x ==  0)
-		return 0;
 	ret = 2000;
 	if (memo.find(x) == memo.end())
 	{
@@ -19,12 +18,12 @@ int solve(int x,vector <int>&coins,unordered_map <int,int> &memo)
 			cout << "\tTrying coin :: " << coin << endl;
 			if (x - coin >= 0)
 			{
-				cout << "\t\tMove possible current ret is :: " << ret <<  endl;
+				cout << "\t\tMove possible current candidate is :: " << ret << endl;
 				int new_val = solve(x-coin,coins,memo) + 1;
 				if (new_val < ret)
 				{
 					ret = new_val;
-					cout << "\t\t\tNew min found for x :: " << ret << endl;
+					cout << "\t\t\tNew min candidate found for x :: " << x << " is ::" << ret  <<" With coin :: " << coin << endl;
 				}
 			}
 		}
@@ -36,6 +35,7 @@ int solve(int x,vector <int>&coins,unordered_map <int,int> &memo)
 		cout << "\t memoized solution available" << memo[x] <<  endl;
 		ret = memo[x];
 	}
+	cout << "Solution for :: " << x << " is (" << ret << ")" << endl; 
 	return ret;
 }
 
@@ -53,6 +53,7 @@ int main()
 		cin >> x;
 		coins.push_back(x);
 	}
+	sort(coins.begin(),coins.end(),greater <int>());
 
 	cout << "Enter the value to change :: ";
 	cin >> x;
