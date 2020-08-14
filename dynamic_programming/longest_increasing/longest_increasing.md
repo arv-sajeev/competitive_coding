@@ -8,4 +8,8 @@ increasing property.
 
 ## Logic
 
-From the first element onwards find the maximum length subsequence 
+* the minimum length is 1
+* find the lis possible considering elements only uptil curr index
+* we can find the lis at each curr by check for all the positions before whether we can extend their sequence
+* a sequence at i can be extended by curr if a[curr] > a[i] 
+* thus we can calculate all the extended sequences possible at curr and choose the max
